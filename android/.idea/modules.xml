@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newproject.iml" filepath="$PROJECT_DIR$/.idea/modules/newproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/newproject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/newproject.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/litr/newproject.litr.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/litr/newproject.litr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/litr-filters/newproject.litr-filters.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/litr-filters/newproject.litr-filters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/594349188/newproject.react-native-compressor.iml" filepath="$PROJECT_DIR$/.idea/modules/594349188/newproject.react-native-compressor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1746974604/newproject.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/1746974604/newproject.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-812015339/newproject.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-812015339/newproject.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1148663836/newproject.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/1148663836/newproject.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-372425692/newproject.react-native-video-processing.iml" filepath="$PROJECT_DIR$/.idea/modules/-372425692/newproject.react-native-video-processing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-529712936/newproject.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-529712936/newproject.rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>

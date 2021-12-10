@@ -1,0 +1,42 @@
+com/newproject/MainApplication.java
+ com.newproject.MainApplication
+ com.newproject.MainApplication$1
+com/newproject/MediaTrackFormat.java
+ com.newproject.MediaTrackFormat
+com/newproject/TargetTrack.java
+ com.newproject.TargetTrack
+com/newproject/MainActivity.java
+ com.newproject.MainActivity
+com/newproject/utils/TransformationUtil.java
+ com.newproject.utils.TransformationUtil
+ com.newproject.utils.TransformationUtil$1
+com/newproject/TargetVideoTrack.java
+ com.newproject.TargetVideoTrack
+com/newproject/CustomModulePackage.java
+ com.newproject.CustomModulePackage
+com/newproject/utils/TrackMetadataUtil.java
+ com.newproject.utils.TrackMetadataUtil
+com/newproject/TransformationState.java
+ com.newproject.TransformationState
+ com.newproject.TransformationState$State
+com/newproject/VideoTrackFormat.java
+ com.newproject.VideoTrackFormat
+com/newproject/TrimConfig.java
+ com.newproject.TrimConfig
+com/newproject/SourceMedia.java
+ com.newproject.SourceMedia
+com/newproject/AudioTrackFormat.java
+ com.newproject.AudioTrackFormat
+com/newproject/BuildConfig.java
+ com.newproject.BuildConfig
+com/newproject/TargetAudioTrack.java
+ com.newproject.TargetAudioTrack
+com/newproject/CustomModule.java
+ com.newproject.CustomModule
+ com.newproject.CustomModule$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/newproject/TargetMedia.java
+ com.newproject.TargetMedia
+com/newproject/MediaTransformationListener.java
+ com.newproject.MediaTransformationListener

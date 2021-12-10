@@ -1,0 +1,421 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [:react-native-compressor] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-compressor\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-video] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.databinding:databinding-runtime:7.0.3] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d319d6f0497edc293e8a77abde3d7474\databinding-runtime-7.0.3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\841d9f47f5c0a48f3795c017985c1b99\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:litr-filters] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr-filters\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:1-16:12
+MERGED from [:litr] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:1-16:12
+MERGED from [:react-native-fs] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.60.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\fed99f0a4d83ac20223812a00533f238\jetified-react-native-0.60.4\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b28328caef845c1cb2f2a25207af2d25\jetified-android-jsc-r245459\AndroidManifest.xml:2:1-11:12
+MERGED from [com.linkedin.android.litr:litr:1.4.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\67b954de4154bb669e7ff6a07986e380\jetified-litr-1.4.16\AndroidManifest.xml:7:1-16:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c0ae31b40fb09204928d2745e04e1c1f\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\70dda5a2dcbacb24adc963905b11dfa7\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\08fdf36acfc9f4a79ab7397ef7a182b4\jetified-FFmpegMediaMetadataRetriever-core-1.0.16\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\764744a084abed8cc64a9b7033021f86\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2a125e6e43a6c100dd3b2d0661641722\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\743ba62cfca8478dbf6e2406503a9c1b\swiperefreshlayout-1.2.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b527f29ce0e2cca20707c25dea5c07cb\jetified-viewbinding-7.0.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e22ef7ca483db1b9fc5978893f7eb152\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\f39bf2ec124277fd4b0775c91bfe1dbc\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\47d3dfa780a5223209a23c8fece16d85\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cde07c29ebfd45b43f32cd2c35a1194d\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\73cefa489c6e07698755ce045f818781\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1546d7a432f8577feff8a13e187fa9aa\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\47955dee4b67478bd0a82c9da06917f2\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\523ebd9e5d8189315ccd08ac80fe1935\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\bd21bfe88e687868c5c2bbaa91f6a7e9\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\0a4f34ea230e6e1d7412562f06141d27\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d3f55b6ebe1c36baa7d4e64b3984849d\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\237ea2c5fffb2f2f8dc6330b7c0084b0\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2b1e7c575d3cb23f0eb9b1ed1f18fa01\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\bdd8e6c5f0ba45c7d4e1ad8139ced972\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\615783126e8bc6cb22f64a638ffa2b58\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b49841494a4e0c719945f793b8649e8c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c1d376881bb3d66816b1b64f2756e551\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2e99a5548d1481e596ea544bc5728940\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e128714225e81d82fd35068a84fd57f2\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e59c7ae0ec33edca92eb666a9916beef\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d77e9803182fde24bf7e7aa73465a7a6\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eef2bbc2b5863276afc39ce61e41f471\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c3f99693180424cf9a0f6741d07e2c6f\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\73a3637714b1e7e12b1a624649aa80c6\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e89b3316dea1d4e5b50260ed0787e941\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\7c9dac712a4d06b4a7441b733a06545a\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\8bdda7675bb49c5916f9f87c11f094dd\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eef969f8d675ca2a7f18d9896bd41760\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\a2a4765e94863a47db928bf26019aac5\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\6266e4afc2ed77ca83913f37bfd7dca0\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\f01d8ae37a24d14bb2980da82064a401\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\544941fe7b926ecd69419c617e22fde0\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1d2c44ad27cb4813243fc664183c5831\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b17e2dc5fecc2853d15031ec7634a636\jetified-FFmpegMediaMetadataRetriever-native-1.0.16\AndroidManifest.xml:2:1-11:12
+MERGED from [com.zolad:videoslimmer:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eb80bc16ea20d6bcc29cad8ff0362e72\jetified-videoslimmer-1.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.lizhangqu:coreprogress:1.0.2] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cfd07bde4efde249dc684c49cc3cf23f\jetified-coreprogress-1.0.2\AndroidManifest.xml:2:1-12:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c18b795b1ef29d59ba4fad4c20fff2ce\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\213ea56bfdbd827459e45eb41e665164\jetified-FFmpegMediaMetadataRetriever-1.0.14\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c352eda501fd7346228c95ebd9645367\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\4aa502434a118fd70bed1ba156367ab6\jetified-fresco-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eba3c9f357f61181251689712bc31428\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\0399eb2d06048c3971041e148ee2314c\jetified-drawee-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\a2fa91de7323d206c25a6ae027606a16\jetified-nativeimagefilters-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\4655b57d0384537604c90643dd6c86d6\jetified-imagepipeline-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ab256230a8b8e0a46e71ede38f034dfb\jetified-nativeimagetranscoder-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\6a3084d5d94c5a6b72e199db520d9621\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ca19b3e7dc6e766ee9583491da7d82ce\jetified-soloader-0.6.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1367dda8289036d1c412176741cadfa5\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:2:3-27
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:2:3-27
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml
+	android:requestLegacyExternalStorage
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:3:3-46
+	android:versionName
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-67
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-67
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\08fdf36acfc9f4a79ab7397ef7a182b4\jetified-FFmpegMediaMetadataRetriever-core-1.0.16\AndroidManifest.xml:9:5-67
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\08fdf36acfc9f4a79ab7397ef7a182b4\jetified-FFmpegMediaMetadataRetriever-core-1.0.16\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:8:5-64
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:8:5-64
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:8:5-64
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-81
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-81
+MERGED from [:react-native-fs] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+MERGED from [:react-native-fs] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-80
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:10:22-77
+uses-feature#android.hardware.camera
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:11:5-60
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:11:5-60
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:11:19-57
+application
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:13:5-32:19
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:13:5-32:19
+MERGED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:13:5-32:19
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:5-43:19
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:5-43:19
+MERGED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\841d9f47f5c0a48f3795c017985c1b99\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\841d9f47f5c0a48f3795c017985c1b99\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [:litr-filters] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr-filters\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-20
+MERGED from [:litr-filters] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr-filters\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-20
+MERGED from [:litr] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-20
+MERGED from [:litr] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-20
+MERGED from [com.facebook.react:react-native:0.60.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\fed99f0a4d83ac20223812a00533f238\jetified-react-native-0.60.4\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\fed99f0a4d83ac20223812a00533f238\jetified-react-native-0.60.4\AndroidManifest.xml:11:5-20
+MERGED from [com.linkedin.android.litr:litr:1.4.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\67b954de4154bb669e7ff6a07986e380\jetified-litr-1.4.16\AndroidManifest.xml:14:5-20
+MERGED from [com.linkedin.android.litr:litr:1.4.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\67b954de4154bb669e7ff6a07986e380\jetified-litr-1.4.16\AndroidManifest.xml:14:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\70dda5a2dcbacb24adc963905b11dfa7\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\70dda5a2dcbacb24adc963905b11dfa7\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\08fdf36acfc9f4a79ab7397ef7a182b4\jetified-FFmpegMediaMetadataRetriever-core-1.0.16\AndroidManifest.xml:11:5-20
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\08fdf36acfc9f4a79ab7397ef7a182b4\jetified-FFmpegMediaMetadataRetriever-core-1.0.16\AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\764744a084abed8cc64a9b7033021f86\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\764744a084abed8cc64a9b7033021f86\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c1d376881bb3d66816b1b64f2756e551\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c1d376881bb3d66816b1b64f2756e551\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2e99a5548d1481e596ea544bc5728940\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2e99a5548d1481e596ea544bc5728940\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\7c9dac712a4d06b4a7441b733a06545a\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\7c9dac712a4d06b4a7441b733a06545a\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b17e2dc5fecc2853d15031ec7634a636\jetified-FFmpegMediaMetadataRetriever-native-1.0.16\AndroidManifest.xml:9:5-20
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b17e2dc5fecc2853d15031ec7634a636\jetified-FFmpegMediaMetadataRetriever-native-1.0.16\AndroidManifest.xml:9:5-20
+MERGED from [io.github.lizhangqu:coreprogress:1.0.2] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cfd07bde4efde249dc684c49cc3cf23f\jetified-coreprogress-1.0.2\AndroidManifest.xml:9:5-10:19
+MERGED from [io.github.lizhangqu:coreprogress:1.0.2] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cfd07bde4efde249dc684c49cc3cf23f\jetified-coreprogress-1.0.2\AndroidManifest.xml:9:5-10:19
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\213ea56bfdbd827459e45eb41e665164\jetified-FFmpegMediaMetadataRetriever-1.0.14\AndroidManifest.xml:11:5-20
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\213ea56bfdbd827459e45eb41e665164\jetified-FFmpegMediaMetadataRetriever-1.0.14\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ca19b3e7dc6e766ee9583491da7d82ce\jetified-soloader-0.6.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ca19b3e7dc6e766ee9583491da7d82ce\jetified-soloader-0.6.0\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c1d376881bb3d66816b1b64f2756e551\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:15:7-39
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:15:7-39
+	tools:ignore
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:13:75-114
+	android:roundIcon
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:17:7-52
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:17:7-52
+	tools:targetApi
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:13:54-74
+	android:icon
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:16:7-41
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:16:7-41
+	android:allowBackup
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:18:7-34
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:18:7-34
+	android:theme
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:19:7-38
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:19:7-38
+	android:usesCleartextTraffic
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:20:9-44
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:14:7-38
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:14:7-38
+activity#com.newproject.MainActivity
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:21:7-30:18
+	android:label
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:23:9-41
+	android:windowSoftInputMode
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:25:9-51
+	android:configChanges
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:24:9-79
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:22:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:26:9-29:25
+action#android.intent.action.MAIN
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:27:13-65
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:27:21-62
+category#android.intent.category.LAUNCHER
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:28:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:31:7-84
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:31:17-81
+uses-sdk
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-compressor] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-compressor\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-compressor] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-compressor\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video-processing] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-video-processing\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.0.3] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d319d6f0497edc293e8a77abde3d7474\databinding-runtime-7.0.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.3] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d319d6f0497edc293e8a77abde3d7474\databinding-runtime-7.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\841d9f47f5c0a48f3795c017985c1b99\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\841d9f47f5c0a48f3795c017985c1b99\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [:litr-filters] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr-filters\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [:litr-filters] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr-filters\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [:litr] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [:litr] D:\Practice_New\newproject_Before_Bridge\newproject\android\libs\litr\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [:react-native-fs] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-fs\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.60.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\fed99f0a4d83ac20223812a00533f238\jetified-react-native-0.60.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\fed99f0a4d83ac20223812a00533f238\jetified-react-native-0.60.4\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b28328caef845c1cb2f2a25207af2d25\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b28328caef845c1cb2f2a25207af2d25\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
+MERGED from [com.linkedin.android.litr:litr:1.4.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\67b954de4154bb669e7ff6a07986e380\jetified-litr-1.4.16\AndroidManifest.xml:10:5-12:41
+MERGED from [com.linkedin.android.litr:litr:1.4.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\67b954de4154bb669e7ff6a07986e380\jetified-litr-1.4.16\AndroidManifest.xml:10:5-12:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c0ae31b40fb09204928d2745e04e1c1f\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c0ae31b40fb09204928d2745e04e1c1f\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\70dda5a2dcbacb24adc963905b11dfa7\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\70dda5a2dcbacb24adc963905b11dfa7\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\08fdf36acfc9f4a79ab7397ef7a182b4\jetified-FFmpegMediaMetadataRetriever-core-1.0.16\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\08fdf36acfc9f4a79ab7397ef7a182b4\jetified-FFmpegMediaMetadataRetriever-core-1.0.16\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\764744a084abed8cc64a9b7033021f86\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\764744a084abed8cc64a9b7033021f86\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2a125e6e43a6c100dd3b2d0661641722\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2a125e6e43a6c100dd3b2d0661641722\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\743ba62cfca8478dbf6e2406503a9c1b\swiperefreshlayout-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\743ba62cfca8478dbf6e2406503a9c1b\swiperefreshlayout-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b527f29ce0e2cca20707c25dea5c07cb\jetified-viewbinding-7.0.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b527f29ce0e2cca20707c25dea5c07cb\jetified-viewbinding-7.0.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e22ef7ca483db1b9fc5978893f7eb152\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e22ef7ca483db1b9fc5978893f7eb152\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\f39bf2ec124277fd4b0775c91bfe1dbc\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\f39bf2ec124277fd4b0775c91bfe1dbc\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\47d3dfa780a5223209a23c8fece16d85\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\47d3dfa780a5223209a23c8fece16d85\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cde07c29ebfd45b43f32cd2c35a1194d\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cde07c29ebfd45b43f32cd2c35a1194d\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\73cefa489c6e07698755ce045f818781\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\73cefa489c6e07698755ce045f818781\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1546d7a432f8577feff8a13e187fa9aa\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1546d7a432f8577feff8a13e187fa9aa\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\47955dee4b67478bd0a82c9da06917f2\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\47955dee4b67478bd0a82c9da06917f2\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\523ebd9e5d8189315ccd08ac80fe1935\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\523ebd9e5d8189315ccd08ac80fe1935\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\bd21bfe88e687868c5c2bbaa91f6a7e9\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\bd21bfe88e687868c5c2bbaa91f6a7e9\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\0a4f34ea230e6e1d7412562f06141d27\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\0a4f34ea230e6e1d7412562f06141d27\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d3f55b6ebe1c36baa7d4e64b3984849d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d3f55b6ebe1c36baa7d4e64b3984849d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\237ea2c5fffb2f2f8dc6330b7c0084b0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\237ea2c5fffb2f2f8dc6330b7c0084b0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2b1e7c575d3cb23f0eb9b1ed1f18fa01\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2b1e7c575d3cb23f0eb9b1ed1f18fa01\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\bdd8e6c5f0ba45c7d4e1ad8139ced972\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\bdd8e6c5f0ba45c7d4e1ad8139ced972\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\615783126e8bc6cb22f64a638ffa2b58\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\615783126e8bc6cb22f64a638ffa2b58\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b49841494a4e0c719945f793b8649e8c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b49841494a4e0c719945f793b8649e8c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c1d376881bb3d66816b1b64f2756e551\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c1d376881bb3d66816b1b64f2756e551\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2e99a5548d1481e596ea544bc5728940\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\2e99a5548d1481e596ea544bc5728940\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e128714225e81d82fd35068a84fd57f2\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e128714225e81d82fd35068a84fd57f2\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e59c7ae0ec33edca92eb666a9916beef\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e59c7ae0ec33edca92eb666a9916beef\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d77e9803182fde24bf7e7aa73465a7a6\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\d77e9803182fde24bf7e7aa73465a7a6\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eef2bbc2b5863276afc39ce61e41f471\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eef2bbc2b5863276afc39ce61e41f471\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c3f99693180424cf9a0f6741d07e2c6f\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c3f99693180424cf9a0f6741d07e2c6f\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\73a3637714b1e7e12b1a624649aa80c6\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\73a3637714b1e7e12b1a624649aa80c6\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e89b3316dea1d4e5b50260ed0787e941\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\e89b3316dea1d4e5b50260ed0787e941\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\7c9dac712a4d06b4a7441b733a06545a\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\7c9dac712a4d06b4a7441b733a06545a\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\8bdda7675bb49c5916f9f87c11f094dd\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\8bdda7675bb49c5916f9f87c11f094dd\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eef969f8d675ca2a7f18d9896bd41760\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eef969f8d675ca2a7f18d9896bd41760\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\a2a4765e94863a47db928bf26019aac5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\a2a4765e94863a47db928bf26019aac5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\6266e4afc2ed77ca83913f37bfd7dca0\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\6266e4afc2ed77ca83913f37bfd7dca0\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\f01d8ae37a24d14bb2980da82064a401\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\f01d8ae37a24d14bb2980da82064a401\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\544941fe7b926ecd69419c617e22fde0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\544941fe7b926ecd69419c617e22fde0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1d2c44ad27cb4813243fc664183c5831\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1d2c44ad27cb4813243fc664183c5831\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b17e2dc5fecc2853d15031ec7634a636\jetified-FFmpegMediaMetadataRetriever-native-1.0.16\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.16] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\b17e2dc5fecc2853d15031ec7634a636\jetified-FFmpegMediaMetadataRetriever-native-1.0.16\AndroidManifest.xml:5:5-7:41
+MERGED from [com.zolad:videoslimmer:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eb80bc16ea20d6bcc29cad8ff0362e72\jetified-videoslimmer-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zolad:videoslimmer:1.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eb80bc16ea20d6bcc29cad8ff0362e72\jetified-videoslimmer-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.lizhangqu:coreprogress:1.0.2] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cfd07bde4efde249dc684c49cc3cf23f\jetified-coreprogress-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.lizhangqu:coreprogress:1.0.2] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\cfd07bde4efde249dc684c49cc3cf23f\jetified-coreprogress-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c18b795b1ef29d59ba4fad4c20fff2ce\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c18b795b1ef29d59ba4fad4c20fff2ce\jetified-android-scalablevideoview-1.0.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\213ea56bfdbd827459e45eb41e665164\jetified-FFmpegMediaMetadataRetriever-1.0.14\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\213ea56bfdbd827459e45eb41e665164\jetified-FFmpegMediaMetadataRetriever-1.0.14\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c352eda501fd7346228c95ebd9645367\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c352eda501fd7346228c95ebd9645367\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\4aa502434a118fd70bed1ba156367ab6\jetified-fresco-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\4aa502434a118fd70bed1ba156367ab6\jetified-fresco-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eba3c9f357f61181251689712bc31428\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\eba3c9f357f61181251689712bc31428\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\0399eb2d06048c3971041e148ee2314c\jetified-drawee-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\0399eb2d06048c3971041e148ee2314c\jetified-drawee-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\a2fa91de7323d206c25a6ae027606a16\jetified-nativeimagefilters-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\a2fa91de7323d206c25a6ae027606a16\jetified-nativeimagefilters-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\4655b57d0384537604c90643dd6c86d6\jetified-imagepipeline-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\4655b57d0384537604c90643dd6c86d6\jetified-imagepipeline-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ab256230a8b8e0a46e71ede38f034dfb\jetified-nativeimagetranscoder-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ab256230a8b8e0a46e71ede38f034dfb\jetified-nativeimagetranscoder-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\6a3084d5d94c5a6b72e199db520d9621\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\6a3084d5d94c5a6b72e199db520d9621\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ca19b3e7dc6e766ee9583491da7d82ce\jetified-soloader-0.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\ca19b3e7dc6e766ee9583491da7d82ce\jetified-soloader-0.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1367dda8289036d1c412176741cadfa5\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\1367dda8289036d1c412176741cadfa5\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\debug\AndroidManifest.xml:7:22-75
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:22-73
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:58
+	android:resource
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-55
+	android:name
+		ADDED from [:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-56

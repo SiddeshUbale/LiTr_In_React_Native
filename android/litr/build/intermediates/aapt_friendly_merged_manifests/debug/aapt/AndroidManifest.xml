@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2019 LinkedIn Corporation -->
+<!-- All Rights Reserved. -->
+<!--  -->
+<!-- Licensed under the BSD 2-Clause License (the "License").  See License in the project root -->
+<!-- for license information. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.linkedin.android.litr" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="30" />
+
+    <application />
+
+</manifest>

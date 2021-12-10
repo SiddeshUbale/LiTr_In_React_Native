@@ -1,0 +1,168 @@
+com/linkedin/android/litr/resample/PassThroughAudioResampler.java
+ com.linkedin.android.litr.resample.PassThroughAudioResampler
+com/linkedin/android/litr/codec/MediaCodecEncoder.java
+ com.linkedin.android.litr.codec.MediaCodecEncoder
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform4i.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform4i
+com/linkedin/android/litr/preview/VideoPreviewRenderer.java
+ com.linkedin.android.litr.preview.VideoPreviewRenderer
+ com.linkedin.android.litr.preview.VideoPreviewRenderer$1
+ com.linkedin.android.litr.preview.VideoPreviewRenderer$2
+ com.linkedin.android.litr.preview.VideoPreviewRenderer$InputSurfaceTextureListener
+ com.linkedin.android.litr.preview.VideoPreviewRenderer$PreviewRenderListener
+com/linkedin/android/litr/render/PassthroughSoftwareRenderer.java
+ com.linkedin.android.litr.render.PassthroughSoftwareRenderer
+com/linkedin/android/litr/io/MediaRange.java
+ com.linkedin.android.litr.io.MediaRange
+com/linkedin/android/litr/render/VideoRenderInputSurface.java
+ com.linkedin.android.litr.render.VideoRenderInputSurface
+com/linkedin/android/litr/utils/DiskUtil.java
+ com.linkedin.android.litr.utils.DiskUtil
+com/linkedin/android/litr/filter/GlFrameRenderFilter.java
+ com.linkedin.android.litr.filter.GlFrameRenderFilter
+com/linkedin/android/litr/BuildConfig.java
+ com.linkedin.android.litr.BuildConfig
+com/linkedin/android/litr/TrackTransform.java
+ com.linkedin.android.litr.TrackTransform
+ com.linkedin.android.litr.TrackTransform$1
+ com.linkedin.android.litr.TrackTransform$Builder
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform2f.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform2f
+com/linkedin/android/litr/analytics/TrackTransformationInfo.java
+ com.linkedin.android.litr.analytics.TrackTransformationInfo
+com/linkedin/android/litr/filter/GlFilter.java
+ com.linkedin.android.litr.filter.GlFilter
+com/linkedin/android/litr/TransformationListener.java
+ com.linkedin.android.litr.TransformationListener
+com/linkedin/android/litr/transcoder/AudioTrackTranscoder.java
+ com.linkedin.android.litr.transcoder.AudioTrackTranscoder
+com/linkedin/android/litr/filter/Transform.java
+ com.linkedin.android.litr.filter.Transform
+com/linkedin/android/litr/render/Renderer.java
+ com.linkedin.android.litr.render.Renderer
+com/linkedin/android/litr/test/TransformationEvent.java
+ com.linkedin.android.litr.test.TransformationEvent
+ com.linkedin.android.litr.test.TransformationEvent$EventType
+com/linkedin/android/litr/transcoder/VideoTrackTranscoder.java
+ com.linkedin.android.litr.transcoder.VideoTrackTranscoder
+com/linkedin/android/litr/utils/CodecUtils.java
+ com.linkedin.android.litr.utils.CodecUtils
+com/linkedin/android/litr/exception/InsufficientDiskSpaceException.java
+ com.linkedin.android.litr.exception.InsufficientDiskSpaceException
+com/linkedin/android/litr/render/GlRenderUtils.java
+ com.linkedin.android.litr.render.GlRenderUtils
+com/linkedin/android/litr/resample/DownsampleAudioResampler.java
+ com.linkedin.android.litr.resample.DownsampleAudioResampler
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform3f.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform3f
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform4iv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform4iv
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform3i.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform3i
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform2iv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform2iv
+com/linkedin/android/litr/MarshallingTransformationListener.java
+ com.linkedin.android.litr.MarshallingTransformationListener
+ com.linkedin.android.litr.MarshallingTransformationListener$1
+ com.linkedin.android.litr.MarshallingTransformationListener$MarshallingHandler
+com/linkedin/android/litr/analytics/TransformationStatsCollector.java
+ com.linkedin.android.litr.analytics.TransformationStatsCollector
+com/linkedin/android/litr/io/MediaExtractorMediaSource.java
+ com.linkedin.android.litr.io.MediaExtractorMediaSource
+com/linkedin/android/litr/filter/video/gl/DefaultVideoFrameRenderFilter.java
+ com.linkedin.android.litr.filter.video.gl.DefaultVideoFrameRenderFilter
+com/linkedin/android/litr/render/GlVideoRenderer.java
+ com.linkedin.android.litr.render.GlVideoRenderer
+com/linkedin/android/litr/preview/PreviewEglConfigChooser.java
+ com.linkedin.android.litr.preview.PreviewEglConfigChooser
+com/linkedin/android/litr/utils/TranscoderUtils.java
+ com.linkedin.android.litr.utils.TranscoderUtils
+com/linkedin/android/litr/exception/MediaTransformationException.java
+ com.linkedin.android.litr.exception.MediaTransformationException
+com/linkedin/android/litr/io/MediaTarget.java
+ com.linkedin.android.litr.io.MediaTarget
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform4fv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform4fv
+com/linkedin/android/litr/exception/MediaSourceException.java
+ com.linkedin.android.litr.exception.MediaSourceException
+ com.linkedin.android.litr.exception.MediaSourceException$Error
+com/linkedin/android/litr/filter/util/GlFilterUtil.java
+ com.linkedin.android.litr.filter.util.GlFilterUtil
+com/linkedin/android/litr/utils/TimeUtils.java
+ com.linkedin.android.litr.utils.TimeUtils
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform2fv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform2fv
+com/linkedin/android/litr/codec/MediaCodecDecoder.java
+ com.linkedin.android.litr.codec.MediaCodecDecoder
+com/linkedin/android/litr/filter/video/gl/parameter/UniformMatrix3fv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.UniformMatrix3fv
+com/linkedin/android/litr/transcoder/PassthroughTranscoder.java
+ com.linkedin.android.litr.transcoder.PassthroughTranscoder
+com/linkedin/android/litr/exception/MediaTargetException.java
+ com.linkedin.android.litr.exception.MediaTargetException
+ com.linkedin.android.litr.exception.MediaTargetException$Error
+com/linkedin/android/litr/io/MediaMuxerMediaTarget.java
+ com.linkedin.android.litr.io.MediaMuxerMediaTarget
+ com.linkedin.android.litr.io.MediaMuxerMediaTarget$1
+ com.linkedin.android.litr.io.MediaMuxerMediaTarget$MediaSample
+com/linkedin/android/litr/codec/Decoder.java
+ com.linkedin.android.litr.codec.Decoder
+com/linkedin/android/litr/transcoder/TrackTranscoder.java
+ com.linkedin.android.litr.transcoder.TrackTranscoder
+com/linkedin/android/litr/preview/VideoFilterPreviewView.java
+ com.linkedin.android.litr.preview.VideoFilterPreviewView
+ com.linkedin.android.litr.preview.VideoFilterPreviewView$1
+com/linkedin/android/litr/render/VideoRenderOutputSurface.java
+ com.linkedin.android.litr.render.VideoRenderOutputSurface
+com/linkedin/android/litr/TransformationJob.java
+ com.linkedin.android.litr.TransformationJob
+com/linkedin/android/litr/io/MediaSource.java
+ com.linkedin.android.litr.io.MediaSource
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform2i.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform2i
+com/linkedin/android/litr/resample/AudioResampler.java
+ com.linkedin.android.litr.resample.AudioResampler
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform1fv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform1fv
+com/linkedin/android/litr/filter/video/gl/parameter/ShaderParameter.java
+ com.linkedin.android.litr.filter.video.gl.parameter.ShaderParameter
+ com.linkedin.android.litr.filter.video.gl.parameter.ShaderParameter$Type
+com/linkedin/android/litr/transcoder/TrackTranscoderFactory.java
+ com.linkedin.android.litr.transcoder.TrackTranscoderFactory
+com/linkedin/android/litr/MediaTransformer.java
+ com.linkedin.android.litr.MediaTransformer
+com/linkedin/android/litr/preview/PreviewEglContextFactory.java
+ com.linkedin.android.litr.preview.PreviewEglContextFactory
+com/linkedin/android/litr/filter/video/gl/VideoFrameRenderFilter.java
+ com.linkedin.android.litr.filter.video.gl.VideoFrameRenderFilter
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform3iv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform3iv
+com/linkedin/android/litr/exception/TrackTranscoderException.java
+ com.linkedin.android.litr.exception.TrackTranscoderException
+ com.linkedin.android.litr.exception.TrackTranscoderException$Error
+com/linkedin/android/litr/filter/video/gl/shader/VertexShader.java
+ com.linkedin.android.litr.filter.video.gl.shader.VertexShader
+com/linkedin/android/litr/codec/Encoder.java
+ com.linkedin.android.litr.codec.Encoder
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform1iv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform1iv
+com/linkedin/android/litr/TransformationOptions.java
+ com.linkedin.android.litr.TransformationOptions
+ com.linkedin.android.litr.TransformationOptions$1
+ com.linkedin.android.litr.TransformationOptions$Builder
+com/linkedin/android/litr/codec/Frame.java
+ com.linkedin.android.litr.codec.Frame
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform1i.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform1i
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform1f.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform1f
+com/linkedin/android/litr/filter/video/gl/parameter/UniformMatrix4fv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.UniformMatrix4fv
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform3fv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform3fv
+com/linkedin/android/litr/test/MockMediaTransformer.java
+ com.linkedin.android.litr.test.MockMediaTransformer
+com/linkedin/android/litr/filter/video/gl/parameter/Uniform4f.java
+ com.linkedin.android.litr.filter.video.gl.parameter.Uniform4f
+com/linkedin/android/litr/filter/video/gl/parameter/UniformMatrix2fv.java
+ com.linkedin.android.litr.filter.video.gl.parameter.UniformMatrix2fv

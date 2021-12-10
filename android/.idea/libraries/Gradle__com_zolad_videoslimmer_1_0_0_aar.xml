@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zolad:videoslimmer:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb80bc16ea20d6bcc29cad8ff0362e72/jetified-videoslimmer-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb80bc16ea20d6bcc29cad8ff0362e72/jetified-videoslimmer-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb80bc16ea20d6bcc29cad8ff0362e72/jetified-videoslimmer-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zolad/videoslimmer/1.0.0/8b014be459fc73bbd6753f248d943ca887a82a15/videoslimmer-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zolad/videoslimmer/1.0.0/268e6c5fcc165a6a2f8bbe8d5512d787e23e883b/videoslimmer-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

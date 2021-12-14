@@ -57,7 +57,7 @@
 35        android:allowBackup="false"
 35-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:18:7-34
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-2\files-2.1\c1d376881bb3d66816b1b64f2756e551\core-1.6.0\AndroidManifest.xml:24:18-86
+36-->[androidx.core:core:1.6.0] C:\Users\Siddhesh\.gradle\caches\transforms-3\6082edc4f455eb975cb6336003ded710\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 37        android:debuggable="true"
 38        android:extractNativeLibs="false"
 39        android:icon="@mipmap/ic_launcher"
@@ -66,69 +66,70 @@
 40-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:15:7-39
 41        android:roundIcon="@mipmap/ic_launcher_round"
 41-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:17:7-52
-42        android:theme="@style/AppTheme"
-42-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:19:7-38
-43        android:usesCleartextTraffic="true" >
-43-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:20:9-44
-44        <activity
-44-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:21:7-30:18
-45            android:name="com.newproject.MainActivity"
-45-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:22:9-37
-46            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-46-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:24:9-79
-47            android:label="@string/app_name"
-47-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:23:9-41
-48            android:windowSoftInputMode="adjustResize" >
-48-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:25:9-51
-49            <intent-filter>
-49-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:26:9-29:25
-50                <action android:name="android.intent.action.MAIN" />
-50-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:27:13-65
-50-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:27:21-62
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:28:13-73
-52-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:28:23-70
-53            </intent-filter>
-54        </activity>
-55        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-55-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:31:7-84
-55-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:31:17-81
-56
-57        <provider
-57-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
-58            android:name="com.RNFetchBlob.Utils.FileProvider"
-58-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
-59            android:authorities="com.newproject.provider"
-59-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
-60            android:exported="false"
-60-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
-61            android:grantUriPermissions="true" >
-61-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
-62            <meta-data
-62-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:58
-63                android:name="android.support.FILE_PROVIDER_PATHS"
-63-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
-64                android:resource="@xml/provider_paths" />
-64-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-55
-65        </provider>
-66        <provider
-66-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
-67            android:name="com.imagepicker.FileProvider"
-67-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-56
-68            android:authorities="com.newproject.provider"
-68-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-60
-69            android:exported="false"
-69-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
-70            android:grantUriPermissions="true" >
-70-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
-71            <meta-data
-71-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:58
-72                android:name="android.support.FILE_PROVIDER_PATHS"
-72-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
-73                android:resource="@xml/provider_paths" />
-73-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-55
-74        </provider>
-75    </application>
-76
-77</manifest>
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme"
+43-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:19:7-38
+44        android:usesCleartextTraffic="true" >
+44-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:20:9-44
+45        <activity
+45-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:21:7-30:18
+46            android:name="com.newproject.MainActivity"
+46-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:22:9-37
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+47-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:24:9-79
+48            android:label="@string/app_name"
+48-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:23:9-41
+49            android:windowSoftInputMode="adjustResize" >
+49-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:25:9-51
+50            <intent-filter>
+50-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:26:9-29:25
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:27:13-65
+51-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:27:21-62
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:28:13-73
+53-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:28:23-70
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+56-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:31:7-84
+56-->D:\Practice_New\newproject_Before_Bridge\newproject\android\app\src\main\AndroidManifest.xml:31:17-81
+57
+58        <provider
+58-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+59            android:name="com.RNFetchBlob.Utils.FileProvider"
+59-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+60            android:authorities="com.newproject.provider"
+60-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+61            android:exported="false"
+61-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+62            android:grantUriPermissions="true" >
+62-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+63            <meta-data
+63-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:58
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
+65                android:resource="@xml/provider_paths" />
+65-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-55
+66        </provider>
+67        <provider
+67-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+68            android:name="com.imagepicker.FileProvider"
+68-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-56
+69            android:authorities="com.newproject.provider"
+69-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-60
+70            android:exported="false"
+70-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+71            android:grantUriPermissions="true" >
+71-->[:react-native-image-picker] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+72            <meta-data
+72-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:58
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
+74                android:resource="@xml/provider_paths" />
+74-->[:rn-fetch-blob] D:\Practice_New\newproject_Before_Bridge\newproject\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-55
+75        </provider>
+76    </application>
+77
+78</manifest>

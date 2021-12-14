@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/213ea56bfdbd827459e45eb41e665164/jetified-FFmpegMediaMetadataRetriever-1.0.14/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/213ea56bfdbd827459e45eb41e665164/jetified-FFmpegMediaMetadataRetriever-1.0.14/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/213ea56bfdbd827459e45eb41e665164/jetified-FFmpegMediaMetadataRetriever-1.0.14/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0f5d9655435d095cff00f833e619f2d/transformed/jetified-FFmpegMediaMetadataRetriever-1.0.14/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0f5d9655435d095cff00f833e619f2d/transformed/jetified-FFmpegMediaMetadataRetriever-1.0.14/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b0f5d9655435d095cff00f833e619f2d/transformed/jetified-FFmpegMediaMetadataRetriever-1.0.14/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

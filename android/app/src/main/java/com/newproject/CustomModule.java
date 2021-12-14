@@ -42,11 +42,12 @@ import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-import wseemann.media.FFmpegMediaMetadataRetriever;
+//import wseemann.media.FFmpegMediaMetadataRetriever;
 
 public class CustomModule extends ReactContextBaseJavaModule {
 
     private static final String TAG = CustomModule.class.getSimpleName();
+
 
     //private final MediaTransformer mediaTransformer;
 
@@ -72,7 +73,7 @@ public class CustomModule extends ReactContextBaseJavaModule {
 
         //String FRAME_RATE = mFFmpegMediaMetadataRetriever.extractMetadata(FFmpegMediaMetadataRetriever.METADATA_KEY_FRAMERATE);
 
-        Toast.makeText(reactContext, pathValue, Toast.LENGTH_LONG).show();
+        //Toast.makeText(reactContext, pathValue, Toast.LENGTH_LONG).show();
 
         MediaTransformer mediaTransformer = new MediaTransformer(reactContext);
 
@@ -111,92 +112,28 @@ public class CustomModule extends ReactContextBaseJavaModule {
         Log.d(">>>>>>>>>>>>>Transformation Listener:-", String.valueOf(listener));
         //Log.d(">>>>>>>>>>>>>Frame Rate:-", FRAME_RATE);
 
-        mediaTransformer.transform(uniqueID,
-                Uri.parse(pathValue),
-                destPath,
-                MediaFormat.createVideoFormat("video/mp4v-es", imageWidth , imageHeight),
-                MediaFormat.createAudioFormat("audio/mp4a-latm" ,48000 , 2),
-                listener,
-                null);
-        Toast.makeText(reactContext, ">>>>> Doind Something <<<<<", Toast.LENGTH_LONG).show();
-        //startTransformation(Uri.parse(pathValue),
-        //        destPath,
-        //        );
-    }
+        //mediaTransformer.transform(uniqueID,
+          //      Uri.parse(pathValue),
+            //    destPath,
+            //    MediaFormat.createVideoFormat("video/mp4v-es", imageWidth , imageHeight),
+           //     MediaFormat.createAudioFormat("audio/mp4a-latm" ,48000 , 2),
+         //       listener,
+         //       null);
 
-    /* his Method is copied from LiTr as it is which is used for Transcode functionality */
-    public void startTransformation(@NonNull SourceMedia sourceMedia,
-                                    @NonNull TargetMedia targetMedia,
-                                    @NonNull TrimConfig trimConfig,
-                                    @NonNull TransformationState transformationState) {
-        if (targetMedia.getIncludedTrackCount() < 1) {
-            return;
-        }
+        //Toast.makeText(reactContext, ">>>>> Doing Compression Now <<<<<", Toast.LENGTH_LONG).show();
 
-        if (targetMedia.targetFile.exists()) {
-            targetMedia.targetFile.delete();
-        }
+        TransformationPresenter presenter = new TransformationPresenter(reactContext, mediaTransformer);
+        SourceMedia sourceMedia = new SourceMedia();
+        TargetMedia targetMedia = new TargetMedia();
+        TrimConfig trimConfig = new TrimConfig();
+        TransformationState transformationState = new TransformationState();
 
-        transformationState.requestId = UUID.randomUUID().toString();
-        MediaTransformationListener transformationListener = new MediaTransformationListener(reactContext,
-                transformationState.requestId,
-                transformationState,
-                targetMedia);
-
-        try {
-            int videoRotation = 0;
-            for (MediaTrackFormat trackFormat : sourceMedia.tracks) {
-                if (trackFormat.mimeType.startsWith("video")) {
-                    videoRotation = ((VideoTrackFormat) trackFormat).rotation;
-                    break;
-                }
-            }
-            MediaTarget mediaTarget = new MediaMuxerMediaTarget(targetMedia.targetFile.getPath(),
-                    targetMedia.getIncludedTrackCount(),
-                    videoRotation,
-                    MediaMuxer.OutputFormat.MUXER_OUTPUT_MPEG_4);
-
-            List<TrackTransform> trackTransforms = new ArrayList<>(targetMedia.tracks.size());
-
-
-            MediaRange mediaRange = trimConfig.enabled
-                    ? new MediaRange(
-                    TimeUnit.MILLISECONDS.toMicros((long) (trimConfig.range.get(0) * 1000)),
-                    TimeUnit.MILLISECONDS.toMicros((long) (trimConfig.range.get(1) * 1000)))
-                    : new MediaRange(0, Long.MAX_VALUE);
-            MediaSource mediaSource = new MediaExtractorMediaSource(reactContext, sourceMedia.uri, mediaRange);
-
-            for (TargetTrack targetTrack : targetMedia.tracks) {
-                if (!targetTrack.shouldInclude) {
-                    continue;
-                }
-                TrackTransform.Builder trackTransformBuilder = new TrackTransform.Builder(mediaSource,
-                        targetTrack.sourceTrackIndex,
-                        mediaTarget)
-                        .setTargetTrack(trackTransforms.size())
-                        .setTargetFormat(targetTrack.shouldTranscode ? createMediaFormat(targetTrack) : null)
-                        .setEncoder(new MediaCodecEncoder())
-                        .setDecoder(new MediaCodecDecoder());
-                if (targetTrack.format instanceof VideoTrackFormat) {
-                    trackTransformBuilder.setRenderer(new GlVideoRenderer(createGlFilters(sourceMedia,
-                            (TargetVideoTrack) targetTrack,
-                            0.56f,
-                            new PointF(0.6f, 0.4f),
-                            30)));
-                }
-
-                trackTransforms.add(trackTransformBuilder.build());
-            }
-
-            MediaTransformer mediaTransformer = new MediaTransformer(reactContext);
-
-            mediaTransformer.transform(transformationState.requestId,
-                    trackTransforms,
-                    transformationListener,
-                    MediaTransformer.GRANULARITY_DEFAULT);
-        } catch (MediaTransformationException ex) {
-            Log.e(TAG, "Exception when trying to perform track operation", ex);
-        }
+        presenter.startTransformation(
+                sourceMedia,
+                targetMedia,
+                trimConfig,
+                transformationState
+        );
     }
 
     @Nullable

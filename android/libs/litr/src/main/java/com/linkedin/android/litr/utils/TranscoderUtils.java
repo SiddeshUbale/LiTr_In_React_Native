@@ -28,13 +28,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-//import static android.media.MediaFormat.KEY_BIT_RATE;
-
 public final class TranscoderUtils {
 
     @VisibleForTesting
     static final int COMMON_AUDIO_BITRATE_KBPS = 320;
-    static final int KEY_BIT_RATE = 5;
 
     private static final String TAG = TranscoderUtils.class.getSimpleName();
 
@@ -71,8 +68,8 @@ public final class TranscoderUtils {
             String mimeType = getMimeType(sourceTrackFormat);
             if (mimeType != null) {
                 if (trackTransform.getTargetFormat() != null) {
-                    bitrate = trackTransform.getTargetFormat().
-                            getInteger(String.valueOf(KEY_BIT_RATE));
+                    //bitrate = trackTransform.getTargetFormat().getInteger(MediaFormat.KEY_BIT_RATE);
+                    bitrate = 5000000;
                 } else if (mimeType.startsWith("audio") && bitrate < 0) {
                     bitrate = COMMON_AUDIO_BITRATE_KBPS * BITS_IN_KILO;
                 }
@@ -132,8 +129,8 @@ public final class TranscoderUtils {
      */
     public static int estimateVideoTrackBitrate(@NonNull MediaSource mediaSource, int trackIndex) {
         MediaFormat videoTrackFormat = mediaSource.getTrackFormat(trackIndex);
-        if (videoTrackFormat.containsKey(String.valueOf(KEY_BIT_RATE))) {
-            return videoTrackFormat.getInteger(String.valueOf(KEY_BIT_RATE));
+        if (videoTrackFormat.containsKey(MediaFormat.KEY_BIT_RATE)) {
+            return videoTrackFormat.getInteger(MediaFormat.KEY_BIT_RATE);
         }
         float videoTrackDuration = TimeUtils.microsToSeconds(videoTrackFormat.getLong(MediaFormat.KEY_DURATION));
         if (videoTrackDuration == 0) {
@@ -146,8 +143,8 @@ public final class TranscoderUtils {
         for (int track = 0; track < trackCount; track++) {
             MediaFormat trackFormat = mediaSource.getTrackFormat(track);
             if (trackFormat.containsKey(MediaFormat.KEY_MIME)) {
-                if (trackFormat.containsKey(String.valueOf(KEY_BIT_RATE)) && trackFormat.containsKey(MediaFormat.KEY_DURATION)) {
-                    int bitrate = trackFormat.getInteger(String.valueOf(KEY_BIT_RATE));
+                if (trackFormat.containsKey(MediaFormat.KEY_BIT_RATE) && trackFormat.containsKey(MediaFormat.KEY_DURATION)) {
+                    int bitrate = trackFormat.getInteger(MediaFormat.KEY_BIT_RATE);
                     long duration = trackFormat.getLong(MediaFormat.KEY_DURATION);
                     unallocatedSize -= bitrate * TimeUtils.microsToSeconds(duration) / BITS_IN_BYTE;
                 } else {
@@ -213,8 +210,8 @@ public final class TranscoderUtils {
 
     private static int getBitrate(@NonNull MediaFormat trackFormat) {
         int bitrate = -1;
-        if (trackFormat.containsKey(String.valueOf(KEY_BIT_RATE))) {
-            bitrate = trackFormat.getInteger(String.valueOf(KEY_BIT_RATE));
+        if (trackFormat.containsKey(MediaFormat.KEY_BIT_RATE)) {
+            bitrate = trackFormat.getInteger(MediaFormat.KEY_BIT_RATE);
         }
         return bitrate;
     }

@@ -1,12 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.linkedin.android.litr:litr:1.4.16@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b954de4154bb669e7ff6a07986e380/jetified-litr-1.4.16/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f6bd0883ef8d04bca479552aae6b8c21/transformed/jetified-litr-1.4.16/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b954de4154bb669e7ff6a07986e380/jetified-litr-1.4.16/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b954de4154bb669e7ff6a07986e380/jetified-litr-1.4.16/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b954de4154bb669e7ff6a07986e380/jetified-litr-1.4.16/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f6bd0883ef8d04bca479552aae6b8c21/transformed/jetified-litr-1.4.16/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f6bd0883ef8d04bca479552aae6b8c21/transformed/jetified-litr-1.4.16/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f6bd0883ef8d04bca479552aae6b8c21/transformed/jetified-litr-1.4.16/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.android.litr/litr/1.4.16/fcdb0cfcbe0e57bc45c89ad98f3ba1728c88eb33/litr-1.4.16-javadoc.jar!/" />

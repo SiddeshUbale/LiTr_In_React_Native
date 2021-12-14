@@ -4,7 +4,7 @@
             "outputFile": "D:\\Practice_New\\newproject_Before_Bridge\\newproject\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Siddhesh\\.gradle\\caches\\transforms-2\\files-2.1\\841d9f47f5c0a48f3795c017985c1b99\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Siddhesh\\.gradle\\caches\\transforms-3\\ec75e33c10c8efdbfbae9a6ec42fb634\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

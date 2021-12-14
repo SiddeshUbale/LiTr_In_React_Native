@@ -115,7 +115,7 @@ class SharedMediaStoragePublisher @JvmOverloads constructor(
 
 
         private val moviesDirectory = Environment.DIRECTORY_MOVIES
-        private val litrDirectory = "LiTr"
+        private val litrDirectory = "Created_By_Compression_Demo_App"
         private val relativePathMovies = "${moviesDirectory}/${litrDirectory}"
 
     }

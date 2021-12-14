@@ -12,10 +12,12 @@ com/newproject/MainActivity.java
 com/newproject/utils/TransformationUtil.java
  com.newproject.utils.TransformationUtil
  com.newproject.utils.TransformationUtil$1
+com/newproject/TargetMedia.java
+ com.newproject.TargetMedia
 com/newproject/TargetVideoTrack.java
  com.newproject.TargetVideoTrack
-com/newproject/CustomModulePackage.java
- com.newproject.CustomModulePackage
+com/newproject/MediaPickerListener.java
+ com.newproject.MediaPickerListener
 com/newproject/utils/TrackMetadataUtil.java
  com.newproject.utils.TrackMetadataUtil
 com/newproject/TransformationState.java
@@ -33,12 +35,14 @@ com/newproject/BuildConfig.java
  com.newproject.BuildConfig
 com/newproject/TargetAudioTrack.java
  com.newproject.TargetAudioTrack
+com/newproject/MediaTransformationListener.java
+ com.newproject.MediaTransformationListener
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/newproject/GenericTrackFormat.java
+ com.newproject.GenericTrackFormat
+com/newproject/CustomModulePackage.java
+ com.newproject.CustomModulePackage
 com/newproject/CustomModule.java
  com.newproject.CustomModule
  com.newproject.CustomModule$1
-com/facebook/react/PackageList.java
- com.facebook.react.PackageList
-com/newproject/MediaTransformationListener.java
- com.newproject.MediaTransformationListener
-com/newproject/TargetMedia.java
- com.newproject.TargetMedia

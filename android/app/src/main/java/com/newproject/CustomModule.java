@@ -1,18 +1,13 @@
 package com.newproject;
 
-import static com.facebook.react.bridge.UiThreadUtil.runOnUiThread;
 
-
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.PointF;
+import android.media.MediaExtractor;
 import android.media.MediaFormat;
 import android.media.MediaMetadataRetriever;
-import android.media.MediaMuxer;
 import android.net.Uri;
 import android.os.Build;
 import android.util.Log;
-import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -20,31 +15,23 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.linkedin.android.litr.MediaTransformer;
-import com.linkedin.android.litr.TrackTransform;
 import com.linkedin.android.litr.TransformationListener;
 import com.linkedin.android.litr.TransformationOptions;
 import com.linkedin.android.litr.analytics.TrackTransformationInfo;
-import com.linkedin.android.litr.codec.MediaCodecDecoder;
-import com.linkedin.android.litr.codec.MediaCodecEncoder;
-import com.linkedin.android.litr.exception.MediaTransformationException;
-import com.linkedin.android.litr.filter.GlFilter;
-import com.linkedin.android.litr.io.MediaExtractorMediaSource;
-import com.linkedin.android.litr.io.MediaMuxerMediaTarget;
-import com.linkedin.android.litr.io.MediaRange;
-import com.linkedin.android.litr.io.MediaSource;
-import com.linkedin.android.litr.io.MediaTarget;
-import com.linkedin.android.litr.render.GlVideoRenderer;
+import com.linkedin.android.litr.utils.MediaFormatUtils;
+import com.linkedin.android.litr.utils.TranscoderUtils;
 import com.newproject.utils.TransformationUtil;
+import com.newproject.SourceMedia;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import java.util.concurrent.TimeUnit;
 
 //import wseemann.media.FFmpegMediaMetadataRetriever;
 
-public class CustomModule extends ReactContextBaseJavaModule {
+public class CustomModule extends ReactContextBaseJavaModule implements MediaPickerListener{
 
     private static final String TAG = CustomModule.class.getSimpleName();
 
@@ -104,6 +91,8 @@ public class CustomModule extends ReactContextBaseJavaModule {
             }
         };
 
+        TransformationOptions transformationOptions;
+
         Log.d(">>>>>>>>>>>>>Received Path:-", pathValue);
         Log.d(">>>>>>>>>>>>>Destination Path:-", destPath);
         Log.d(">>>>>>>>>>>>>Received Width:-", String.valueOf(imageWidth));
@@ -113,12 +102,12 @@ public class CustomModule extends ReactContextBaseJavaModule {
         //Log.d(">>>>>>>>>>>>>Frame Rate:-", FRAME_RATE);
 
         //mediaTransformer.transform(uniqueID,
-          //      Uri.parse(pathValue),
-            //    destPath,
-            //    MediaFormat.createVideoFormat("video/mp4v-es", imageWidth , imageHeight),
-           //     MediaFormat.createAudioFormat("audio/mp4a-latm" ,48000 , 2),
-         //       listener,
-         //       null);
+        //        Uri.parse(pathValue),
+        //        destPath,
+        //        MediaFormat.createVideoFormat("video/mp4v-es", imageWidth , imageHeight),
+        //        MediaFormat.createAudioFormat("audio/mp4a-latm" ,48000 , 2),
+        //        listener,
+        //        null);
 
         //Toast.makeText(reactContext, ">>>>> Doing Compression Now <<<<<", Toast.LENGTH_LONG).show();
 
@@ -128,6 +117,65 @@ public class CustomModule extends ReactContextBaseJavaModule {
         TrimConfig trimConfig = new TrimConfig();
         TransformationState transformationState = new TransformationState();
 
+
+
+        sourceMedia.uri = Uri.parse(pathValue);
+        sourceMedia.size = TranscoderUtils.getSize(reactContext, Uri.parse(pathValue));
+        sourceMedia.duration = getMediaDuration(Uri.parse(pathValue)) / 1000f;
+
+        try {
+            MediaExtractor mediaExtractor = new MediaExtractor();
+            mediaExtractor.setDataSource(reactContext, Uri.parse(pathValue), null);
+            sourceMedia.tracks = new ArrayList<>(mediaExtractor.getTrackCount());
+
+            for (int track = 0; track < mediaExtractor.getTrackCount(); track++) {
+                MediaFormat mediaFormat = mediaExtractor.getTrackFormat(track);
+                String mimeType = mediaFormat.getString(MediaFormat.KEY_MIME);
+                if (mimeType == null) {
+                    continue;
+                }
+
+                if (mimeType.startsWith("video")) {
+                    VideoTrackFormat videoTrack = new VideoTrackFormat(track, mimeType);
+                    videoTrack.width = getInt(mediaFormat, MediaFormat.KEY_WIDTH);
+                    videoTrack.height = getInt(mediaFormat, MediaFormat.KEY_HEIGHT);
+                    videoTrack.duration = getLong(mediaFormat, MediaFormat.KEY_DURATION);
+                    videoTrack.frameRate = MediaFormatUtils.getFrameRate(mediaFormat, -1).intValue();
+                    videoTrack.keyFrameInterval = MediaFormatUtils.getIFrameInterval(mediaFormat, -1).intValue();
+                    videoTrack.rotation = getInt(mediaFormat, KEY_ROTATION, 0);
+                    videoTrack.bitrate = getInt(mediaFormat, MediaFormat.KEY_BIT_RATE);
+                    sourceMedia.tracks.add(videoTrack);
+                } else if (mimeType.startsWith("audio")) {
+                    AudioTrackFormat audioTrack = new AudioTrackFormat(track, mimeType);
+                    audioTrack.channelCount = getInt(mediaFormat, MediaFormat.KEY_CHANNEL_COUNT);
+                    audioTrack.samplingRate = getInt(mediaFormat, MediaFormat.KEY_SAMPLE_RATE);
+                    audioTrack.duration = getLong(mediaFormat, MediaFormat.KEY_DURATION);
+                    audioTrack.bitrate = getInt(mediaFormat, MediaFormat.KEY_BIT_RATE);
+                    sourceMedia.tracks.add(audioTrack);
+                } else {
+                    sourceMedia.tracks.add(new GenericTrackFormat(track, mimeType));
+                }
+            }
+        } catch (IOException ex) {
+            Log.e(TAG, "Failed to extract sourceMedia", ex);
+        }
+
+        System.out.println("SourceMedia >>>>>>>>>>>>>>>>>>>>>>>>>>>>"+ sourceMedia.uri.toString());
+        System.out.println("SourceMedia >>>>>>>>>>>>>>>>>>>>>>>>>>>>"+ sourceMedia.duration);
+        System.out.println("SourceMedia >>>>>>>>>>>>>>>>>>>>>>>>>>>>"+ sourceMedia.size);
+        System.out.println("SourceMedia >>>>>>>>>>>>>>>>>>>>>>>>>>>>"+ sourceMedia.tracks.toString());
+
+        updateTrimConfig(trimConfig, sourceMedia);
+
+        System.out.println("TrimConfig >>>>>>>>>>>>>>>>>>>>>>>>>>>>"+ trimConfig.range.toString());
+
+
+        File targetFile = new File(TransformationUtil.getTargetFileDirectory(reactContext.getApplicationContext()),
+                "transcoded_" + TransformationUtil.getDisplayName(reactContext, sourceMedia.uri));
+
+        targetMedia.setTargetFile(targetFile);
+        targetMedia.setTracks(sourceMedia.tracks);
+
         presenter.startTransformation(
                 sourceMedia,
                 targetMedia,
@@ -136,90 +184,6 @@ public class CustomModule extends ReactContextBaseJavaModule {
         );
     }
 
-    @Nullable
-    private MediaFormat createMediaFormat(@Nullable TargetTrack targetTrack) {
-        MediaFormat mediaFormat = null;
-        if (targetTrack != null && targetTrack.format != null) {
-            mediaFormat = new MediaFormat();
-            if (targetTrack.format.mimeType.startsWith("video")) {
-                mediaFormat = createVideoMediaFormat((VideoTrackFormat) targetTrack.format);
-            } else if (targetTrack.format.mimeType.startsWith("audio")) {
-                mediaFormat = createAudioMediaFormat((AudioTrackFormat) targetTrack.format);
-            }
-        }
-
-        return mediaFormat;
-    }
-
-    @NonNull
-    private MediaFormat createVideoMediaFormat(@NonNull VideoTrackFormat trackFormat) {
-        MediaFormat mediaFormat = new MediaFormat();
-        mediaFormat.setString(MediaFormat.KEY_MIME, trackFormat.mimeType);
-        mediaFormat.setInteger(MediaFormat.KEY_WIDTH, trackFormat.width);
-        mediaFormat.setInteger(MediaFormat.KEY_HEIGHT, trackFormat.height);
-        mediaFormat.setInteger(MediaFormat.KEY_BIT_RATE, trackFormat.bitrate);
-        mediaFormat.setInteger(MediaFormat.KEY_I_FRAME_INTERVAL, trackFormat.keyFrameInterval);
-        mediaFormat.setInteger(MediaFormat.KEY_FRAME_RATE, trackFormat.frameRate);
-        mediaFormat.setLong(MediaFormat.KEY_DURATION, trackFormat.duration);
-        mediaFormat.setInteger(KEY_ROTATION, trackFormat.rotation);
-
-        return mediaFormat;
-    }
-
-    @NonNull
-    private MediaFormat createAudioMediaFormat(@NonNull AudioTrackFormat trackFormat) {
-        MediaFormat mediaFormat = new MediaFormat();
-        mediaFormat.setString(MediaFormat.KEY_MIME, trackFormat.mimeType);
-        mediaFormat.setInteger(MediaFormat.KEY_CHANNEL_COUNT, trackFormat.channelCount);
-        mediaFormat.setInteger(MediaFormat.KEY_SAMPLE_RATE, trackFormat.samplingRate);
-        mediaFormat.setInteger(MediaFormat.KEY_BIT_RATE, trackFormat.bitrate);
-        mediaFormat.setLong(MediaFormat.KEY_DURATION, trackFormat.duration);
-
-        return mediaFormat;
-    }
-
-    @Nullable
-    private List<GlFilter> createGlFilters(@NonNull SourceMedia sourceMedia,
-                                           @Nullable TargetVideoTrack targetTrack,
-                                           float overlayWidth,
-                                           @NonNull PointF position,
-                                           float rotation) {
-        List<GlFilter> glFilters = null;
-        if (targetTrack != null && targetTrack.overlay != null) {
-            try {
-                Bitmap bitmap = BitmapFactory.decodeStream(reactContext.getContentResolver().openInputStream(targetTrack.overlay));
-                if (bitmap != null) {
-                    float overlayHeight;
-                    VideoTrackFormat sourceVideoTrackFormat = (VideoTrackFormat) sourceMedia.tracks.get(targetTrack.sourceTrackIndex);
-                    if (sourceVideoTrackFormat.rotation == 90 || sourceVideoTrackFormat.rotation == 270) {
-                        float overlayWidthPixels = overlayWidth * sourceVideoTrackFormat.height;
-                        float overlayHeightPixels = overlayWidthPixels * bitmap.getHeight() / bitmap.getWidth();
-                        overlayHeight = overlayHeightPixels / sourceVideoTrackFormat.width;
-                    } else {
-                        float overlayWidthPixels = overlayWidth * sourceVideoTrackFormat.width;
-                        float overlayHeightPixels = overlayWidthPixels * bitmap.getHeight() / bitmap.getWidth();
-                        overlayHeight = overlayHeightPixels / sourceVideoTrackFormat.height;
-                    }
-
-                    PointF size = new PointF(overlayWidth, overlayHeight);
-
-                    GlFilter filter = TransformationUtil.createGlFilter(reactContext,
-                            targetTrack.overlay,
-                            size,
-                            position,
-                            rotation);
-                    if (filter != null) {
-                        glFilters = new ArrayList<>();
-                        glFilters.add(filter);
-                    }
-                }
-            } catch (IOException ex) {
-                Log.e(TAG, "Failed to extract audio track metadata: " + ex);
-            }
-        }
-
-        return glFilters;
-    }
 
     /* Use if required */
     public void stopCompression(){
@@ -232,5 +196,45 @@ public class CustomModule extends ReactContextBaseJavaModule {
     @Override
     public String getName() {
         return "ABC";
+    }
+
+    @Override
+    public void onMediaPicked(@NonNull Uri uri) {
+
+        SourceMedia sourceMedia = null;
+        
+        sourceMedia.uri = uri;
+        sourceMedia.size = TranscoderUtils.getSize(reactContext, uri);
+        sourceMedia.duration = getMediaDuration(uri) / 1000f;
+
+    }
+
+    private long getMediaDuration(@NonNull Uri uri) {
+        MediaMetadataRetriever mediaMetadataRetriever = new MediaMetadataRetriever();
+        mediaMetadataRetriever.setDataSource(reactContext, uri);
+        String durationStr = mediaMetadataRetriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION);
+        return Long.parseLong(durationStr);
+    }
+
+    private int getInt(@NonNull MediaFormat mediaFormat, @NonNull String key) {
+        return getInt(mediaFormat, key, -1);
+    }
+
+    private int getInt(@NonNull MediaFormat mediaFormat, @NonNull String key, int defaultValue) {
+        if (mediaFormat.containsKey(key)) {
+            return mediaFormat.getInteger(key);
+        }
+        return defaultValue;
+    }
+
+    private long getLong(@NonNull MediaFormat mediaFormat, @NonNull String key) {
+        if (mediaFormat.containsKey(key)) {
+            return mediaFormat.getLong(key);
+        }
+        return -1;
+    }
+
+    protected void updateTrimConfig(@NonNull TrimConfig trimConfig, @NonNull SourceMedia sourceMedia) {
+        trimConfig.setTrimEnd(sourceMedia.duration);
     }
 }
